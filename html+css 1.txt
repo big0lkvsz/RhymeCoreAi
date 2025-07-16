@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RhymeCore AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0a0a0a;
+      color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #ff0055;
+      text-shadow: 0 0 10px #ff0055;
+    }
+
+    p {
+      max-width: 700px;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    .example {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      border-left: 4px solid #ff0055;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+
+    a.button {
+      background-color: #ff0055;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #cc0044;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>RhymeCore AI</h1>
+  <p>Twój osobisty ghostwriter rapowy. Tworzy rymy, punchline'y, zwrotki i całe teksty 24/7. Wystarczy, że podasz temat lub słowa-klucze.</p>
+  <div class="example">
+    "Na blokach zimno, ale w duszy ogień,<br>
+    RhymeCore pisze wersy jakby miał milion dłoni.<br>
+    Wchodzę w bit, jakby był mój tron,<br>
+    AI nawijka – w tym stylu robimy prąd."
+  </div>
+  <a class="button" href="https://discord.gg/TWOJ-LINK" target="_blank">Dołącz do Discorda</a>
+  <footer>
+    &copy; 2025 RhymeCore AI. Wersje na zamówienie dostępne po DM.
+  </footer>
+</body>
+</html>
